@@ -1,0 +1,176 @@
+:root {
+    --base-shade-1: #00a8fa;
+    --white-shade-1: #ffffff;
+    --white-shade-2: #d7elf3;
+    --black-shade-1: #232323;
+    --black-shade-2: #676a8b;
+    --grad-shade-1: 0, 180, 250;
+    --grad-shade-2: 21, 120, 255;
+   
+    --base-font-size: 1.6rem;
+   
+    --heading-font-size-1: 4rem;
+    --heading-font-size-2: 3.2rem;
+    --heading-font-size-3: 2rem;
+    --heading-font-size-4: 1.8rem;
+   
+    --border-radius-1: 1rem;
+    --border-radius-2: 0.5rem;
+   }
+  *,
+  *:before,
+  *:after {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+  }
+  *:not(i) {
+    font-family: "poppins",sans-serif;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 0px 4px 4px #e8eef2;
+   background-color: white;
+  }
+  header nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+  }
+  header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  header nav a { 
+  font-size: var(--heading-font-size-4);
+  }
+  header nav #logo {
+  padding-top: 15px;
+  padding-left: 15px;
+  height: 60px;
+  padding-bottom: 10px;
+  
+  }
+  header nav ul a {
+    color: var(--black-shade-1);
+  }
+  header nav #nav-bar{
+  padding: 10px 30px;
+  padding-right: 20px;
+  }
+  header ul #login{
+   
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 15px;
+    background-color: #0073e6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     margin: auto;
+  
+  }
+  header li #login{
+    color: white;
+    text-decoration-line: none;  
+  }
+  header ul #hamburger{
+    padding-top: 10px;
+  }
+  header ul #search{
+    align-self: center;
+    padding-top: 10px;
+  }
+  header ul #search-{
+    text-align: center;
+    background: lightblue;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     margin: auto;
+  }
+  header i {
+   text-align: center;
+    background: #e8eef2;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     margin: auto;
+  }
+  footer {
+    height: 75px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color:white;
+    color: #0073e6;
+    text-align: center;
+  }
+  footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20rem;
+  }
+  footer nav a { 
+    font-size: var(--heading-font-size-4);
+  }
+  footer nav #nav-bar{
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 5px;
+  }
+  footer nav img{
+    height: 40px;
+    width: 30px;
+  }
+  footer nav span{
+    font-size: small;
+    font-family: inter;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  h1{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 8;
+    font-weight: 10;
+  
+  }
+  
+  
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
